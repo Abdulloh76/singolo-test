@@ -28,7 +28,6 @@ header {
     margin-top: 0;
     height: 89px;
     text-transform: uppercase;
-    /* font-family: 'Lato-Regular', sans-serif; */
     font-weight: bold;
     background-color: #2d303a;
     border-bottom: 6px solid #323746;
@@ -65,9 +64,21 @@ header a:link {
     color: white;
 }
 nav a:hover {
-    /* text-decoration: none; */
     color: #f06c64;
 }
 h1.logo span {
     color: #f06c64;
+}
+
+ /* Slider */
+
+div.slider {
+    background-color: #f06c64;
+    border-bottom: 6px solid #ea676b;
+}
+.slider-inner {
+    display: flex;
+    height: 594px;
+    align-items: center;
+    justify-content: space-around;
 }
